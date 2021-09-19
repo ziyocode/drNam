@@ -1,0 +1,27 @@
+{
+    "python.pythonPath": "/Users/ziyocode/.pyenv/versions/drNam/bin/python",
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "100"
+    ],
+    "editor.tokenColorCustomizations": {
+        "[Darcula Pycharm with Dark GUI]": { // Targets dark GUI
+            "textMateRules": [
+                {
+                    "name": "Foreground base syntax",
+                    "scope": [
+                        "text", // For markup, config, etc.
+                        "source", // For code
+                    ],
+                    "settings": {
+                        "foreground": "#FF0000" // Bright red
+                    }
+                },
+            ]
+        },
+    },
+    "python.linting.enabled": true
+}
